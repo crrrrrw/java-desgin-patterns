@@ -1,4 +1,4 @@
-package com.crw.study.factory.simple;
+package com.crw.study.factory.simple_factory;
 
 public abstract class Pizza {
 

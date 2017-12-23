@@ -1,4 +1,4 @@
-package com.crw.study.factory.simple;
+package com.crw.study.factory.simple_factory;
 
 /**
  * 下面我们从开闭原则（对扩展开放；对修改封闭）上来分析下简单工厂模式。当客户不再满足现有的Pizza的时候，
