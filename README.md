@@ -5,3 +5,4 @@
 2. 观察者模式 observer
 3. 工厂模式 factory
 4. 责任链模式 chain
+5. 组合模式 composite
