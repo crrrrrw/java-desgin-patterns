@@ -7,3 +7,4 @@
 4. 责任链模式 chain
 5. 组合模式 composite
 6. 单例模式 singleton
+7. 建造者模式 builder
