@@ -9,3 +9,4 @@
 6. 单例模式 singleton
 7. 建造者模式 builder
 8. 迭代器模式 iterator
+9. 装饰器模式 decorator（Wrapper）
