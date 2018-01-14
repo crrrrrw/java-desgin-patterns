@@ -13,3 +13,4 @@
 10. 命令模式 command
 11. 适配器模式 adapter
 12. 外观模式 facade
+13. 状态模式 state
