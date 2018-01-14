@@ -11,3 +11,4 @@
 8. 迭代器模式 iterator
 9. 装饰器模式 decorator（Wrapper）
 10. 命令模式 command
+11. 适配器模式 adapter
