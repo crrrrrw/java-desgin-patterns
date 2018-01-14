@@ -1,0 +1,30 @@
+package com.crw.study.command.example3;
+
+/**
+ * 灯
+ * 接受者角色
+ */
+public class Light {
+
+    private String name;
+
+    public Light(String name) {
+        this.name = name;
+    }
+
+    public void on() {
+        System.out.println(name + " light is on");
+    }
+
+    public void off() {
+        System.out.println(name + " light is off");
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+}
