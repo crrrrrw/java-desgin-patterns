@@ -14,3 +14,4 @@
 11. 适配器模式 adapter
 12. 外观模式 facade
 13. 状态模式 state
+14. 模板方法模式 template method
