@@ -1,5 +1,8 @@
 package com.crw.study.flyweight.example1;
 
+/**
+ * 黑白棋
+ */
 public class Client {
 
     public static void main(String[] args) {
