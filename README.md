@@ -6,7 +6,7 @@
 - 抽象工厂模式 factory
 - 单例模式 singleton
 - 建造者模式 builder
-- 原型模式 #TODO
+- 原型模式 prototype
 
 结构型模式：
 - 适配器模式 adapter
