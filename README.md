@@ -15,7 +15,7 @@
 - 外观模式 facade
 - 桥接模式 #TODO
 - 组合模式 composite
-- 享元模式 #TODO
+- 享元模式 flyweight
 
 行为型模式：
 - 策略模式 strategy
