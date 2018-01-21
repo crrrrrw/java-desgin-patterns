@@ -11,7 +11,7 @@
 结构型模式：
 - 适配器模式 adapter
 - 装饰器模式 decorator（Wrapper）
-- 代理模式 #TODO
+- 代理模式 proxy
 - 外观模式 facade
 - 桥接模式 #TODO
 - 组合模式 composite
