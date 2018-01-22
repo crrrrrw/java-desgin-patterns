@@ -13,7 +13,7 @@
 - 装饰器模式 decorator（Wrapper）
 - 代理模式 proxy
 - 外观模式 facade
-- 桥接模式 #TODO
+- 桥接模式 bridge
 - 组合模式 composite
 - 享元模式 flyweight
 
