@@ -24,7 +24,7 @@
 - 迭代器模式 iterator
 - 责任链模式 chain
 - 命令模式 command
-- 备忘录模式 #TODO
+- 备忘录模式 memento
 - 状态模式 state
 - 访问者模式 #TODO
 - 中介者模式 #TODO
