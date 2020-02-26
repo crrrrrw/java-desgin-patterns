@@ -37,5 +37,5 @@
 - 备忘录模式 memento
 - 状态模式 state
 - 访问者模式 visitor
-- 中介者模式 #TODO
+- 中介者模式 mediator
 - 解释器模式 #TODO
