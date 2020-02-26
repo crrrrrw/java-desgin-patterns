@@ -8,26 +8,13 @@ import java.util.Date;
  */
 public class SerializeCopyClient {
 
-    public static void main(String[] args) throws IOException, ClassNotFoundException {
+    public static void main(String[] args) throws IOException, ClassNotFoundException, CloneNotSupportedException {
         SerializeCopyObj obj = new SerializeCopyObj("原型对象", 23, new Date(1516256879566L));
         System.out.println("原型对象:" + obj);
 
 
-        //使用序列化和反序列化实现深复制
-        //1、将 obj 对象序列化为一个数组
-        //通过ObjectOutputStream流将s1对象读出来给ByteArrayOutputStream流
-        ByteArrayOutputStream bos = new ByteArrayOutputStream();
-        ObjectOutputStream oos = new ObjectOutputStream(bos);
-        oos.writeObject(obj);
-        //ByteArrayOutputStream流将对象信息转成byte数组，这样byte数组里就包含了对象的数据
-        byte[] bytes = bos.toByteArray();
+        SerializeCopyObj clone = (SerializeCopyObj) obj.clone();
 
-        //2、将字节数组中的内容反序列化为一个Sheep对象
-        //通过ByteArrayInputStream流读入bytes字节数组中数据，然后传给ObjectInputStream对象输入流
-        ByteArrayInputStream bis = new ByteArrayInputStream(bytes);
-        ObjectInputStream ois = new ObjectInputStream(bis);
-        //通过ObjectInputStream返回一个Sheep对象
-        SerializeCopyObj clone = (SerializeCopyObj) ois.readObject();
         System.out.println("克隆对象:" + clone);
 
         System.out.println("\n开始修改原型对象...\n");
